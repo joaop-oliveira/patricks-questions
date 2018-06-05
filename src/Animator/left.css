@@ -1,0 +1,17 @@
+.left-enter {
+  opacity: 0.01;
+  transform: translate(-100%);
+}
+.left-enter.left-enter-active {
+  opacity: 1;
+  transform: translate(0%);
+  transition: all 500ms ease-in-out;
+}
+.left-leave {
+  transform: translate(0%);
+}
+.left-leave.left-leave-active {
+  opacity: 0.01;
+  transform: translate(100%);
+  transition: all 500ms ease-in-out;
+}
